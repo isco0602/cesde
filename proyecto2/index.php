@@ -7,11 +7,41 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>proyecto</title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+         <h1>
+            <?php
+             $Primeravariable=2;
+             $Segundavariable=5;
+             $lenguaje="javascribt";
+             echo '<br>';
+             if ($Primeravariable == 1 && $Segundavariable == 2){
+                 echo 'soy menor';
+             }
+             else {
+                 echo 'soy mayor';
+             }
+             switch ($lenguaje){
+             case "php" :
+                 echo 'php';
+                 break;
+             case "javascribt":
+                 echo 'javascribt';
+                 break;
+             case"html":
+                 echo 'html';
+                 break;
+             }
+            ?>
+         </h1> 
+        <p>
+        <h2>
+                <?php
+                  echo 'otra seccion';
+                ?>
+        </h2>   
+        </p>
+        
     </body>
 </html>
