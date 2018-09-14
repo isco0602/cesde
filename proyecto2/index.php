@@ -32,9 +32,29 @@ and open the template in the editor.
              case"html":
                  echo 'html';
                  break;
+             
              }
+             echo '<br>';
+             $arreglo=[2,"hola",5];
+            
+             //echo $arreglo[2];
+             
+             //arreglos
             ?>
          </h1> 
+        <pre>
+            <h3>
+                <?php
+                           $dato= array_pop($arreglo);
+                           print_r($arreglo);
+                           //arreglos asociativa
+                           $usuarios=array("nombre=>juan",
+                           "apellidos"=>"zabala","cedula"=>123);
+                       echo "<hl>".$usuarios['nombre']. "</h1>";
+                           
+             ?>
+             </h3>
+        </pre>
         <p>
         <h2>
                 <?php
