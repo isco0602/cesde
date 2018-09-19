@@ -14,6 +14,12 @@ and open the template in the editor.
          <label>nombre</label>
          <input type="text" name="nombre" placeholder="nombre">
          <input type="submit" value="enviar">
+         <br> <br>
+         <label>apellido</label>
+         <input type="text" name="apellido" placeholder="apellido">
+         <br> <br>
+         <label>telefono</label>
+         <input type="text" name="telefono" placeholder="telefono">
         </form>       
         <?php
         // put your code here

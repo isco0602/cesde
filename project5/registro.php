@@ -1,7 +1,6 @@
 <?php
    $usuario=$_GET;
    var_dump($usuario);
-   //php
 
 /* 
  * To change this license header, choose License Headers in Project Properties.
