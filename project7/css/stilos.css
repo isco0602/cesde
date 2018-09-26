@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/09/2018, 02:05:27 PM
+    Author     : 4-01
+*/
+.barra-nav{
+    background:linear-gradient(#e57373,#4fc3f7);  
+}
+.styl-footer{
+    background: linear-gradient(#ffff8d,#90a4ae);
+    text-align: center;
+}
+.registro {
+    text-align: center;
+   
+}
+.logo{
+     box-shadow: 4px 4px black;
+     border-radius: 50px;
+     width: 35%;
+}
+.contenedor{
+    margin-top: 20px;
+}
+
