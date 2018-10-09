@@ -7,6 +7,13 @@ class iniciocontroler extends CI_Controller{
 	 $this->load->view('iniciovistas');
          $this->load->view('layous/footerview');
     }
+    
+    public function principal (){
+        $this->load->view('layous/headerview');
+        $this->load->view('principal');
+        $this->load->view('layous/footerview'); 
+    }
+
     public function registro(){
         $this->load->view('layous/headerview');
 	$this->load->view('registro');

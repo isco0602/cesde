@@ -1,41 +1,14 @@
 <section>
-    <a href="" ></a>
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                          <img class="d-block w-100" src="<?php echo base_url();?>access/img/nmax.jpg" alt="First slide" width="500" height="500">
-                      </div>
-                      <div class="carousel-item">
-                          <img class="d-block w-100" src="<?php echo base_url();?>access/img/xtz.png" alt="Second slide" width="500" height="500">
-                      </div>
-                      <div class="carousel-item">
-                          <img class="d-block w-100" src="<?php echo base_url();?>access/img/dr.jpg" alt="Third slide" width="500" height="500">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                </div>
             <div class="container">
                 <div class="registro">
-                    <img class="img-responsive logoregistro" src="img/nva.jpg" alt="">
+                    <img class="img-responsive logoregistro" src="<?php echo base_url();?>access/img/bxl.jpg" alt="" width="500" height="400">
                 </div>
                 <form>
                     <div class="row">
                         <div class="col">
                             <div class="form-group">
                                 <label for="nombre">Nombre</label>
-                                <input name="nombre" type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                                <input name="nombre" type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required="">
                                 <!--<small id="NombreHelp" class="form-text text-muted"></small>-->                   
                             </div>
                         </div>
@@ -44,14 +17,14 @@
                         <div class="col">
                             <div class="form-group">
                                 <label for="Apellido">Apellido</label>
-                                <input name="apellido" type="texto" class="form-control" id="apellido" placeholder="Ingrese su apellido">
+                                <input name="apellido" type="texto" class="form-control" id="apellido" placeholder="Ingrese su apellido" required="">
                             </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col">
                             <label for="Pais">País</label>
-                            <input name="pais" type="text" class="form-control" placeholder="País de residencia">
+                            <input name="pais" type="text" class="form-control" placeholder="País de residencia" required="">
                         </div>
                         <div class="col">
                             <div class="form-group">
@@ -79,7 +52,7 @@
                         <div class="col">
                             <div class="form-group">
                                 <label for="Ciudad">Ciudad</label> 
-                                <select name="Ciudad" class="custom-select mr-sm-2" id="Ciudad">
+                                <select name="Ciudad" class="custom-select mr-sm-2" id="Ciudad" required="">
                                   <option selected>Seleccione su ciudad de residencia</option>
                                   <option value="Medellín">Medellín</option>
                                   <option value="Cali">Cali</option>
@@ -96,7 +69,7 @@
                             <div class="col">
                                 <div class="form-group">
                                     <label for="Telefono">Teléfono</label>
-                                    <input name="telefono" type="texto" class="form-control" id="telefono" placeholder="Ingrese su teléfono">
+                                    <input name="telefono" type="texto" class="form-control" id="telefono" placeholder="Ingrese su teléfono" required="">
                                 </div>
                             </div>
                         </div>
@@ -104,14 +77,14 @@
                             <div class="col">
                                 <div class="form-group">
                                     <label for="correo">Correo</label>
-                                    <input name="correo" type="Email" class="form-control" id="correo" placeholder="Ingrese su correo">
+                                    <input name="correo" type="Email" class="form-control" id="correo" placeholder="Ingrese su correo" required="">
                                 </div>
                             </div>
                         </div>
 
                     <br>
                     <div class="form-group form-check">
-                        <input name="terminos" type="checkbox" class="form-check-input" id="terminos">
+                        <input name="terminos" type="checkbox" class="form-check-input" id="terminos" required="">
                       <label class="form-check-label" for="terminos">Acepta los términos y Condiciones</label>
                     </div>
                     <button type="submit" class="btn btn-primary btn-enviar">Completar Registro</button>
